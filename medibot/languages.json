@@ -1,0 +1,79 @@
+{
+  "languages": {
+    "en": {
+      "name": "English",
+      "flag": "🇺🇸",
+      "welcome_message": "Hello! I'm your AI medical assistant. I can help identify common illnesses based on your symptoms and suggest over-the-counter medicines. Please describe your symptoms to get started.",
+      "no_symptoms_detected": "I didn't detect any specific symptoms in your message. Could you please describe your symptoms more clearly? For example: 'I have a headache and fever' or 'I'm experiencing stomach pain and nausea'.",
+      "symptoms_noted": "I've noted your symptoms: {symptoms}. Do you have any additional symptoms? The more information you provide, the better I can help you.",
+      "more_symptoms": "I understand you have: {symptoms}. Could you tell me about any other symptoms you're experiencing?",
+      "diagnosis_result": "Based on your symptoms ({symptoms}), you may have **{disease}**.\n\n**Suggested over-the-counter medicines:**\n{medicines}\n\n*Do you have any other symptoms you'd like to mention?*",
+      "health_advice": "**Health Advice:**\n{advice}",
+      "daily_limit_reached": "Daily chat limit reached ({limit} chats). Please upgrade your plan or try again tomorrow.",
+      "plan_switched": "Plan switched to {plan}! You can now enjoy the new features.",
+      "language_switched": "Language switched to {language}!",
+      "select_language": "Select Language",
+      "current_language": "Current Language"
+    },
+    "hi": {
+      "name": "हिंदी",
+      "flag": "🇮🇳",
+      "welcome_message": "नमस्ते! मैं आपका AI चिकित्सा सहायक हूं। मैं आपके लक्षणों के आधार पर सामान्य बीमारियों की पहचान करने और काउंटर पर मिलने वाली दवाओं का सुझाव देने में मदद कर सकता हूं। कृपया अपने लक्षणों का वर्णन करें।",
+      "no_symptoms_detected": "मुझे आपके संदेश में कोई विशिष्ट लक्षण नजर नहीं आए। कृपया अपने लक्षणों को स्पष्ट रूप से बताएं। उदाहरण: 'मुझे सिरदर्द और बुखार है' या 'मुझे पेट दर्द और जी मिचलाना हो रहा है'।",
+      "symptoms_noted": "मैंने आपके लक्षण नोट किए हैं: {symptoms}। क्या आपके कोई और लक्षण हैं? जितनी अधिक जानकारी आप देंगे, उतनी बेहतर मैं आपकी मदद कर सकूंगा।",
+      "more_symptoms": "मैं समझ गया कि आपको यह है: {symptoms}। क्या आप मुझे अपने अन्य लक्षणों के बारे में बता सकते हैं?",
+      "diagnosis_result": "आपके लक्षणों ({symptoms}) के आधार पर, आपको **{disease}** हो सकता है।\n\n**सुझाई गई काउंटर दवाएं:**\n{medicines}\n\n*क्या आपके कोई और लक्षण हैं जिनका आप उल्लेख करना चाहते हैं?*",
+      "health_advice": "**स्वास्थ्य सलाह:**\n{advice}",
+      "daily_limit_reached": "दैनिक चैट सीमा समाप्त ({limit} चैट)। कृपया अपना प्लान अपग्रेड करें या कल फिर कोशिश करें।",
+      "plan_switched": "प्लान {plan} में बदल गया! अब आप नई सुविधाओं का आनंद ले सकते हैं।",
+      "language_switched": "भाषा {language} में बदल गई!",
+      "select_language": "भाषा चुनें",
+      "current_language": "वर्तमान भाषा"
+    },
+    "es": {
+      "name": "Español",
+      "flag": "🇪🇸",
+      "welcome_message": "¡Hola! Soy tu asistente médico de IA. Puedo ayudar a identificar enfermedades comunes basándome en tus síntomas y sugerir medicamentos de venta libre. Por favor, describe tus síntomas para comenzar.",
+      "no_symptoms_detected": "No detecté síntomas específicos en tu mensaje. ¿Podrías describir tus síntomas más claramente? Por ejemplo: 'Tengo dolor de cabeza y fiebre' o 'Estoy experimentando dolor de estómago y náuseas'.",
+      "symptoms_noted": "He anotado tus síntomas: {symptoms}. ¿Tienes algún síntoma adicional? Cuanta más información proporciones, mejor podré ayudarte.",
+      "more_symptoms": "Entiendo que tienes: {symptoms}. ¿Podrías contarme sobre otros síntomas que estés experimentando?",
+      "diagnosis_result": "Basándome en tus síntomas ({symptoms}), podrías tener **{disease}**.\n\n**Medicamentos de venta libre sugeridos:**\n{medicines}\n\n*¿Hay otros síntomas que te gustaría mencionar?*",
+      "health_advice": "**Consejo de Salud:**\n{advice}",
+      "daily_limit_reached": "Límite diario de chat alcanzado ({limit} chats). Por favor actualiza tu plan o inténtalo mañana.",
+      "plan_switched": "¡Plan cambiado a {plan}! Ahora puedes disfrutar de las nuevas funciones.",
+      "language_switched": "¡Idioma cambiado a {language}!",
+      "select_language": "Seleccionar Idioma",
+      "current_language": "Idioma Actual"
+    },
+    "fr": {
+      "name": "Français",
+      "flag": "🇫🇷",
+      "welcome_message": "Bonjour ! Je suis votre assistant médical IA. Je peux aider à identifier les maladies courantes basées sur vos symptômes et suggérer des médicaments en vente libre. Veuillez décrire vos symptômes pour commencer.",
+      "no_symptoms_detected": "Je n'ai pas détecté de symptômes spécifiques dans votre message. Pourriez-vous décrire vos symptômes plus clairement ? Par exemple : 'J'ai mal à la tête et de la fièvre' ou 'Je ressens des douleurs d'estomac et des nausées'.",
+      "symptoms_noted": "J'ai noté vos symptômes : {symptoms}. Avez-vous d'autres symptômes ? Plus vous fournirez d'informations, mieux je pourrai vous aider.",
+      "more_symptoms": "Je comprends que vous avez : {symptoms}. Pourriez-vous me parler d'autres symptômes que vous ressentez ?",
+      "diagnosis_result": "Basé sur vos symptômes ({symptoms}), vous pourriez avoir **{disease}**.\n\n**Médicaments en vente libre suggérés :**\n{medicines}\n\n*Y a-t-il d'autres symptômes que vous aimeriez mentionner ?*",
+      "health_advice": "**Conseils de Santé :**\n{advice}",
+      "daily_limit_reached": "Limite quotidienne de chat atteinte ({limit} chats). Veuillez mettre à niveau votre plan ou réessayer demain.",
+      "plan_switched": "Plan changé vers {plan} ! Vous pouvez maintenant profiter des nouvelles fonctionnalités.",
+      "language_switched": "Langue changée vers {language} !",
+      "select_language": "Sélectionner la Langue",
+      "current_language": "Langue Actuelle"
+    },
+    "de": {
+      "name": "Deutsch",
+      "flag": "🇩🇪",
+      "welcome_message": "Hallo! Ich bin Ihr KI-Medizinassistent. Ich kann dabei helfen, häufige Krankheiten basierend auf Ihren Symptomen zu identifizieren und rezeptfreie Medikamente zu empfehlen. Bitte beschreiben Sie Ihre Symptome, um zu beginnen.",
+      "no_symptoms_detected": "Ich habe keine spezifischen Symptome in Ihrer Nachricht erkannt. Könnten Sie Ihre Symptome klarer beschreiben? Zum Beispiel: 'Ich habe Kopfschmerzen und Fieber' oder 'Ich habe Magenschmerzen und Übelkeit'.",
+      "symptoms_noted": "Ich habe Ihre Symptome notiert: {symptoms}. Haben Sie weitere Symptome? Je mehr Informationen Sie geben, desto besser kann ich Ihnen helfen.",
+      "more_symptoms": "Ich verstehe, dass Sie haben: {symptoms}. Könnten Sie mir von anderen Symptomen erzählen, die Sie haben?",
+      "diagnosis_result": "Basierend auf Ihren Symptomen ({symptoms}) könnten Sie **{disease}** haben.\n\n**Empfohlene rezeptfreie Medikamente:**\n{medicines}\n\n*Gibt es andere Symptome, die Sie erwähnen möchten?*",
+      "health_advice": "**Gesundheitsrat:**\n{advice}",
+      "daily_limit_reached": "Tägliches Chat-Limit erreicht ({limit} Chats). Bitte upgraden Sie Ihren Plan oder versuchen Sie es morgen erneut.",
+      "plan_switched": "Plan zu {plan} gewechselt! Sie können jetzt die neuen Funktionen genießen.",
+      "language_switched": "Sprache zu {language} gewechselt!",
+      "select_language": "Sprache Auswählen",
+      "current_language": "Aktuelle Sprache"
+    }
+  }
+}

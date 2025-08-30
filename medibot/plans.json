@@ -1,0 +1,62 @@
+{
+  "basic": {
+    "name": "Basic (Free)",
+    "max_chats_per_day": 2,
+    "max_bot_responses_per_chat": 2,
+    "medicine_images": false,
+    "chat_history": false,
+    "voice_chat": false,
+    "available_languages": ["en"],
+    "price": "Free",
+    "layout": "minimal",
+    "features": [
+      "2 chat sessions per day",
+      "2 bot responses per chat",
+      "Basic symptom analysis",
+      "Medicine recommendations",
+      "English only",
+      "Text chat only"
+    ]
+  },
+  "pro": {
+    "name": "Pro (₹199/mo)",
+    "max_chats_per_day": 5,
+    "max_bot_responses_per_chat": 4,
+    "medicine_images": true,
+    "chat_history": false,
+    "voice_chat": true,
+    "available_languages": ["en", "hi"],
+    "price": "₹199/month",
+    "layout": "standard",
+    "features": [
+      "5 chat sessions per day",
+      "4 bot responses per chat",
+      "Medicine image previews",
+      "Advanced symptom analysis",
+      "Voice chat enabled",
+      "2 languages (any)"
+    ]
+  },
+  "deluxe": {
+    "name": "Deluxe (₹499/mo)",
+    "max_chats_per_day": 999,
+    "max_bot_responses_per_chat": 999,
+    "medicine_images": true,
+    "chat_history": true,
+    "voice_chat": true,
+    "available_languages": ["en", "hi", "es", "fr", "de", "it", "pt", "ru", "ja", "ko", "zh", "ar", "tr", "nl", "sv", "no", "da", "fi", "pl", "cs", "hu", "ro", "bg", "hr", "sk", "sl", "et", "lv", "lt", "mt", "ga", "cy", "eu", "ca", "gl", "is", "mk", "sq", "sr", "bs", "me", "xh", "zu", "af", "sw", "am", "or", "as", "bn", "gu", "kn", "ml", "mr", "ne", "pa", "sa", "ta", "te", "ur"],
+    "price": "₹499/month",
+    "layout": "premium",
+    "features": [
+      "Unlimited chat sessions",
+      "Unlimited bot responses",
+      "All Pro features",
+      "Voice chat enabled",
+      "Detailed health advice",
+      "Chat history saved",
+      "Personalized recommendations",
+      "24/7 priority support",
+      "60+ languages available"
+    ]
+  }
+}

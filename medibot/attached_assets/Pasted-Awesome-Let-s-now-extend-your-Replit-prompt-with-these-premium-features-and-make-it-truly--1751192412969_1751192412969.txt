@@ -1,0 +1,187 @@
+Awesome! Let's now **extend your Replit prompt** with these **premium features** and make it truly **realistic and professional**, like a mini SaaS product:
+
+---
+
+## 🧠 ⚙️ Final and Enhanced Prompt for Replit AI
+
+```
+You are a senior AI engineer and full-stack developer. I want to build a complete AI-powered medical chatbot in Python using Flask. The chatbot should identify common illnesses based on user-reported symptoms and suggest appropriate over-the-counter medicines.
+
+This is a SaaS-like application with both **chat and subscription functionality**. The chatbot should have user interaction limits based on the selected subscription plan, and when suggesting medicines, it should also **display medicine images** so users can visually recognize the correct product.
+
+===================================
+💡 **GOAL / USE CASE**
+===================================
+This chatbot should:
+- Let users enter symptoms like “I have a headache and sore throat”.
+- Ask follow-up questions: “Do you have any more symptoms?”
+- Match collected symptoms with common diseases from a local JSON file.
+- Display the **best matching illness name**, **suggested medicines**, and **image(s)** of those medicines.
+- Respect user limits based on their subscription plan:
+  - **Basic (Free)**: Only 2 chat sessions per day
+  - **Pro (₹199/mo)**: Unlimited chats, medicine image previews
+  - **Deluxe (₹499/mo)**: All features + detailed health advice + save chat history
+
+===================================
+🏗️ **FOLDER STRUCTURE**
+===================================
+```
+
+/disease\_chatbot
+├── app.py               # Flask backend
+├── model.py             # Symptom matching logic
+├── medicines/           # Folder containing medicine images (png or jpg)
+│   └── paracetamol.png
+├── diseases\_data.json   # List of diseases with symptoms and medicine details
+├── plans.json           # Subscription plans & feature limits
+├── templates/
+│   └── index.html       # Chat UI
+├── static/
+│   ├── style.css        # Styling
+│   └── medicine\_imgs/   # Serve medicine images here
+├── requirements.txt     # Flask and libraries
+
+````
+
+===================================
+📁 **KEY FILES & LOGIC**
+===================================
+
+📌 **diseases_data.json**
+Each disease includes:
+```json
+[
+  {
+    "disease": "Fever",
+    "symptoms": ["fever", "chills", "headache", "fatigue"],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "image": "static/medicine_imgs/paracetamol.png"
+      },
+      {
+        "name": "Crocin",
+        "image": "static/medicine_imgs/crocin.jpg"
+      }
+    ]
+  }
+]
+````
+
+📌 **plans.json**
+
+```json
+{
+  "basic": {
+    "max_chats_per_day": 2,
+    "medicine_images": false,
+    "chat_history": false
+  },
+  "pro": {
+    "max_chats_per_day": 999,
+    "medicine_images": true,
+    "chat_history": false
+  },
+  "deluxe": {
+    "max_chats_per_day": 999,
+    "medicine_images": true,
+    "chat_history": true
+  }
+}
+```
+
+📌 **app.py**
+
+* Load user session and plan from query string or dummy login.
+* Count number of chats done today.
+* Block user if daily chat limit is reached (based on plan).
+* If plan allows, also include medicine image URLs in the response.
+* Use Flask to serve `/chat` POST endpoint.
+* Store symptoms in `chat_sessions[user_id]`.
+
+📌 **model.py**
+
+* Match user symptoms with disease symptoms using score
+* Return best match with medicine names and image paths
+
+📌 **index.html**
+
+* Chat UI with bubble layout (bot/user)
+* If medicine images are provided in the response, show them under medicine name
+
+📌 **style.css**
+
+* Responsive UI
+* Chat message alignment left/right
+* Image styling for medicine suggestions
+
+📌 **requirements.txt**
+
+```
+Flask==2.3.2
+```
+
+\===================================
+💬 **CHAT FLOW (WITH PLANS)**
+=============================
+
+1. User (basic): "I have a fever"
+2. Bot: "Do you have any more symptoms?"
+3. User: "Headache and chills"
+4. Bot: "You may have Fever. Suggested medicines: Paracetamol, Crocin."
+   ❌ *Images not shown in Basic plan*
+
+---
+
+(Pro Plan)
+
+1. Same input
+2. Bot: Same response + image previews of medicines
+
+---
+
+(Deluxe Plan)
+
+* Same as Pro + Save chat history in a file/db
+* Maybe add tip: “Stay hydrated. Consider seeing a doctor if fever persists.”
+
+\===================================
+⚠️ **IMPORTANT NOTES**
+======================
+
+* Show plan name at top-right of chat UI.
+* Add a simple plan switch dropdown for demo/testing (simulate login).
+* Block chat input if limit is reached in Basic plan.
+* At the bottom, include disclaimer:
+
+```html
+<p class="disclaimer">
+  This is an AI-powered symptom checker for informational purposes only. It does not replace medical advice. Always consult a healthcare professional.
+</p>
+```
+
+\===================================
+✅ **TO DO NOW (FOR YOU)**
+=========================
+
+Now generate full working code for:
+
+* `app.py`
+* `model.py`
+* `diseases_data.json`
+* `plans.json`
+* `templates/index.html`
+* `static/style.css`
+* `requirements.txt`
+* Add sample image files (use placeholders like paracetamol.png)
+
+Ensure the code is structured, runnable in Replit, and fully functional. All features above should be included. Use Flask sessions or dictionaries to simulate logged-in users with different plans. Explain each major block of code with brief comments. Do not skip any part.
+
+```
+
+---
+
+Would you now like me to **generate all the full code files step-by-step** right here with working logic, including Flask backend, image support, chat UI, and plan limits?
+
+I can do that in the next messages — just say **“Yes, start the full code”**.
+```

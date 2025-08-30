@@ -1,0 +1,116 @@
+[
+  {
+    "disease": "Common Cold",
+    "symptoms": ["runny nose", "nasal congestion", "sneezing", "cough", "sore throat", "mild headache", "fatigue"],
+    "medicines": [
+      {
+        "name": "Cetirizine",
+        "image": "static/medicine_imgs/cetirizine.svg",
+        "price": "₹45-80",
+        "buy_link": "https://www.1mg.com/drugs/cetirizine-5mg-tablet-1448"
+      },
+      {
+        "name": "Loratadine",
+        "image": "static/medicine_imgs/loratadine.svg",
+        "price": "₹35-65",
+        "buy_link": "https://www.1mg.com/drugs/loratadine-10mg-tablet-1234"
+      }
+    ]
+  },
+  {
+    "disease": "Fever",
+    "symptoms": ["fever", "chills", "headache", "fatigue", "body aches", "sweating"],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "image": "static/medicine_imgs/paracetamol.svg",
+        "price": "₹25-50",
+        "buy_link": "https://www.1mg.com/drugs/paracetamol-500mg-tablet-2345"
+      },
+      {
+        "name": "Ibuprofen",
+        "image": "static/medicine_imgs/ibuprofen.svg",
+        "price": "₹40-75",
+        "buy_link": "https://www.1mg.com/drugs/ibuprofen-400mg-tablet-3456"
+      }
+    ]
+  },
+  {
+    "disease": "Headache",
+    "symptoms": ["headache", "head pain", "pressure in head", "temple pain", "migraine"],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "image": "static/medicine_imgs/paracetamol.svg",
+        "price": "₹25-50",
+        "buy_link": "https://www.1mg.com/drugs/paracetamol-500mg-tablet-2345"
+      },
+      {
+        "name": "Aspirin",
+        "image": "static/medicine_imgs/aspirin.svg",
+        "price": "₹30-60",
+        "buy_link": "https://www.1mg.com/drugs/aspirin-325mg-tablet-4567"
+      },
+      {
+        "name": "Ibuprofen",
+        "image": "static/medicine_imgs/ibuprofen.svg",
+        "price": "₹40-75",
+        "buy_link": "https://www.1mg.com/drugs/ibuprofen-400mg-tablet-3456"
+      }
+    ]
+  },
+  {
+    "disease": "Stomach Upset",
+    "symptoms": ["stomach pain", "nausea", "vomiting", "diarrhea", "abdominal pain", "indigestion"],
+    "medicines": [
+      {
+        "name": "Omeprazole",
+        "image": "static/medicine_imgs/omeprazole.svg",
+        "price": "₹55-95",
+        "buy_link": "https://www.1mg.com/drugs/omeprazole-20mg-capsule-5678"
+      },
+      {
+        "name": "Antacid",
+        "image": "static/medicine_imgs/antacid.svg",
+        "price": "₹15-35",
+        "buy_link": "https://www.1mg.com/drugs/antacid-tablet-6789"
+      }
+    ]
+  },
+  {
+    "disease": "Allergies",
+    "symptoms": ["sneezing", "runny nose", "itchy eyes", "watery eyes", "nasal congestion", "skin rash"],
+    "medicines": [
+      {
+        "name": "Cetirizine",
+        "image": "static/medicine_imgs/cetirizine.svg",
+        "price": "₹45-80",
+        "buy_link": "https://www.1mg.com/drugs/cetirizine-5mg-tablet-1448"
+      },
+      {
+        "name": "Loratadine",
+        "image": "static/medicine_imgs/loratadine.svg",
+        "price": "₹35-65",
+        "buy_link": "https://www.1mg.com/drugs/loratadine-10mg-tablet-1234"
+      }
+    ]
+  },
+  {
+    "disease": "Cough",
+    "symptoms": ["dry cough", "persistent cough", "throat irritation", "chest congestion"],
+    "medicines": [
+      {
+        "name": "Dextromethorphan",
+        "image": "static/medicine_imgs/dextromethorphan.svg",
+        "price": "₹65-120",
+        "buy_link": "https://www.1mg.com/drugs/dextromethorphan-15mg-tablet-7890"
+      },
+      {
+        "name": "Guaifenesin",
+        "image": "static/medicine_imgs/guaifenesin.svg",
+        "price": "₹50-90",
+        "buy_link": "https://www.1mg.com/drugs/guaifenesin-200mg-tablet-8901"
+      }
+    ]
+  }
+]
